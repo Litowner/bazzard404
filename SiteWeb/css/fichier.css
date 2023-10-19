@@ -1,0 +1,201 @@
+button {
+    display: inline-block;
+    background-color: orange;
+    border-radius: 10px;
+    border: 4px double orangered;
+    color: #000000;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  .titre1{
+    font-style: bold;
+    size: 18;
+    color: purple;
+    text-decoration:solid;
+  }
+  .titre2{
+    font-style: normal;
+    size: 16;
+    color: darkblue;
+    text-decoration: none;
+  }
+  .titre3{
+    font-style: normal;
+    size: 14;
+    color: lightblue;
+    text-decoration: italic;
+  }
+
+  button:hover {
+    background-color: rgb(255, 38, 0);
+  }
+
+  .imagebande{
+    width:100%;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    
+    
+  }
+
+tenor-gif-embed{
+
+  position: center;
+}
+
+  head{
+      text-align: top,center;
+  }
+
+  i{
+
+    text-align: top,center;
+    color: aqua;
+  }
+  time{
+      text-align: top,center;
+  }
+  h1{
+    text-align: center;
+    font-display: normal;
+  }
+  h2{
+      text-align: center;
+      font-display: normal;
+  }
+  h3{
+      text-align: center;
+      font-display: normal;  
+  }
+  h4{
+    text-align: center;
+    font-display: normal;
+  }
+
+  html{
+      background-color: #948f8fe0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #baa2cae0;
+    background-size: contain;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer{
+      text-align: center;
+      position: absolute;
+      margin-bottom: 1cm;
+      margin-left: 45%;
+      bottom: 0;
+      
+
+  }
+  a:link{
+
+    color: purple;
+  }
+
+  a:visited{
+    color: fuchsia;
+  }
+  .placeduformulaire{
+    text-align: center;
+    align-items: center;
+  }
+
+
+.container{
+  text-align: center;
+  text-decoration: dashed;
+  text-decoration-color: aqua;
+  color: rgb(46, 15, 184);
+  padding : 1em;
+  width: 100%;
+  height: 580px;
+  box-sizing: border-box;
+
+  background-color: #E4E4D9;
+  background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #ff1e00 95%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #ff7b00 95%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 90%, #ffd000 90%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #c9ff05 92%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 85%, #bbff00 85%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #73ff00 89%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 80%, #00ff37 80%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #00ffb3 86%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 75%, #00ffff 75%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #00d9ff 83%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 70%, #0084ff 70%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #6200ff 80%);
+}
+.decoContact{
+  
+  position: center !important;
+  background-color: #FFC;
+  padding: 2rem;
+  margin: auto;
+  text-align: center !important;
+  max-width: 200px;
+  align-items: center !important;
+}
+.PositionDecoContact{
+ position: top,center;
+ text-align: center;
+
+}
+.SubmitButton{
+  border-radius: 1ch;
+  border-color: #00ff37;
+}
+
+.SubmitButton :hover{
+  border-radius: 1ch;
+  background-color: #73ff00;
+  border-color: #b3ff00;
+}
+.ResetButton{
+  border-radius: 1ch;
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor:-moz-grab;
+  border-color: #ff1100;
+}
+.ResetButton :hover{
+  border-radius: 1ch;
+  border-color: #ff3c00;
+}
